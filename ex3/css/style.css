@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section, div  {
+    display: block;
+}
+
+.start
+{
+    background-color: #F2E9E9;
+
+    height: 123px;
+    width: 100%;
+}
+
+
+.listoption{
+
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    top: 40px;
+    font-family: 'Amiko';
+
+}
+
+.listoption > li > a
+{   
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin:9px;
+    left: 700px;
+    color: #000000;
+}
+
+.pointer
+{
+    background-color: #F72828;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    bottom:35px;
+    right: 15px;
+}
+
+#indexmain
+{
+    position: absolute;
+    width: 881px;
+    height: 624px;
+    left: 244px;
+    top: 214px;
+    
+}
+
+footer
+{
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    top: 1983px;
+    background: #000000;
+
+}
+
+.mix
+{
+    position: absolute;
+    right: 57.55%;
+    top: 28.21%;
+    bottom: 52.56%;
+    font-family: 'Amiko';
+
+}
+
+.mix h1
+{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    color: #000000;
+}
+
+.mix p
+{
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.flex-containerR
+{
+ 
+    display: flex;
+    position: absolute;
+    left: 50.4%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+
+}
+
+#rec1
+{
+    position: absolute;
+    left: 0%;
+    right: 82.84%;
+    top: 7.05%;
+    bottom: 89.26%;
+    background: #EBEF18;
+}
+
+#rec2
+{
+    position: absolute;
+    left: 0%;
+    right: 68.88%;
+    top: 12.02%;
+    bottom: 80.61%;
+    background: #EBEF18;
+}
+
+#rec3
+{
+    position: absolute;
+    left: 0%;
+    right: 69.34%;
+    top: 21.15%;
+    bottom: 14.1%;
+    background: #EBEF18;    
+}
+
+#rec4
+{
+    position: absolute;
+    left: 0%;
+    right: 79.86%;
+    top: 87.66%;
+    bottom: 7.85%;
+    background: #EBEF18;
+}
+#rec-small5
+{
+    position: absolute;
+    left: 0%;
+    right: 94.28%;
+    top: 93.27%;
+    bottom: 2.56%;
+    background: #EBEF18;
+}
+
+#rec-small6
+{
+    position: absolute;
+    left: 7.32%;
+    right: 86.96%;
+    top: 93.27%;
+    bottom: 2.56%;
+    background: #EBEF18;
+}
+#rec7
+{
+    position: absolute;
+    left: 34.1%;
+    right: 9.61%;
+    top: 7.05%;
+    bottom: 36.54%;
+    background: #EBEF18;
+}
+
+#rec8
+{
+    position: absolute;
+    left: 34.1%;
+    right: 37.76%;
+    top: 66.03%;
+    bottom: 0%;
+    background: #EBEF18;
+}
+
+#rec9
+{
+    position: absolute;
+    left: 65.45%;
+    right: 21.97%;
+    top: 66.03%;
+    bottom: 17.15%;
+    background: #EBEF18;
+}
+
+#rec10
+{
+    position: absolute;
+    left: 65.45%;
+    right: 9.38%;
+    top: 83.97%;
+    bottom: 6.73%;
+    background: #EBEF18;
+}
+
+#rec11
+{
+    position: absolute;
+    left: 93.59%;
+    right: 0%;
+    top: 31.73%;
+    bottom: 36.54%;
+    background: #EBEF18;
+}
+
+#rec12
+{
+    position: absolute;
+    left: 87.41%;
+    right: 0%;
+    top: 66.03%;
+    bottom: 17.15%;
+    background: #EBEF18;
+}
+
+#rec-mini1
+{
+    position: absolute;
+    left: 93.59%;
+    right: 0%;
+    top: 0%;
+    bottom: 91.19%;
+    background: #EBEF18;
+}
+
+#rec-mini2
+{
+    position: absolute;
+    left: 93.59%;
+    right: 0%;
+    top: 10.58%;
+    bottom: 80.61%;
+    background: #EBEF18;
+}
+
+#rec-mini3
+{
+    position: absolute;
+    left: 93.59%;
+    right: 0%;
+    top: 21.15%;
+    bottom: 70.03%;
+    background: #EBEF18;
+}
+
+/* Second pagae*/
+
+#flex-screen
+{
+    position: absolute;
+    background: #EBEF18;
+    width: 169px;
+    height: 860px;
+    left: 1450px;
+    display: flex;
+ 
+}
+
+#smallbalck
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1271px;
+    top: 242px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+.yellowrec
+{
+    background-color: #EBEF18;
+    height: 1900px;
+    width: 169px;
+    left: 1271px;
+    top: 123px;
+    
+    display: flex;
+    position: absolute;
+}
+
+#black1
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left:0px;
+    top: 119px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+
+}
+
+#white1
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left:89px;
+    top: 247px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #000000;
+}
+
+#black2
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left:0px;
+    top: 616px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+.linoy
+{
+    position: absolute;
+    width: 81px;
+    height: 641px;
+    left: 44px;
+    top: 1240px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+    color: #000000;
+    position: relative;
+ 
+}
+
+.linoy > a 
+{
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 151px;
+    margin-top: 119px;
+
+}
+
+.right
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 663px;
+    margin-top: -1300px;
+    
+}
+
+#grayrec1
+{
+
+    width: 457px;
+    height: 299px;
+    margin-bottom: 70px;
+    background: #C4C4C4;
+}
+
+/*third page */
+
+#headerthirdpink
+{
+    position: absolute;
+    width: 100%;
+    height: 123px;
+    background: #F2E9E9;
+}
+
+#blackthird
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 24px;
+    top: 21px;
+    background: linear-gradient(0deg, #000000, #000000), #000000;
+}
+
+#blue
+{
+    position: absolute;
+    width: 104px;
+    height: 995px;
+    right: 0px;
+    top: 123px;
+    background: rgba(24, 71, 239, 0.3);
+}
+
+.graythird
+{
+    position: absolute;
+    width: 372px;
+    height: 995px;
+    left: 0px;
+    top: 123px;
+    background: #E5E5E5;
+}
+
+
+
+#yellowthird
+{
+    position: absolute;
+    width: 100%;
+    height: 864px;
+    left: 0px;
+    top: 1118px;
+    bottom: 1583px;
+    background: #EBEF18;
+
+}
+
+.listoption1{
+
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    top: 40px;
+    font-family: 'Amiko';
+
+}
+
+.listoption1 > li > a
+{   
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    margin:9px;
+    top: 123px;
+    left:38px;
+    color: #000000;
+}
